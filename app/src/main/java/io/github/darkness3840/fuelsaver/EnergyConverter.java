@@ -33,7 +33,7 @@ public class EnergyConverter {
         }
     }
     public static String convert (double gallons) {
-        if (MIN_GALLONS > gallons) return "Keep going!";
+        if (MIN_GALLONS > gallons) return "";
         double joules = gallons * 1.3e8;
 
         ArrayList<Double> goodKeys = new ArrayList<>();

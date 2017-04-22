@@ -2,22 +2,463 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\f45003d4737ddafa2375ebe3375a3dcba4aba6d2\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2b09eec4ddeb8c94d16a423841c5741186dd897d\classes.dex" />
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_b241f7d7b6e8c1b245c4a3ab5e25f93df2351446.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\1bcb891e701a5a1e012220fab0e95d6af45052fe\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="87523a7a7c3cac421f14278b5adba191b40f858e">
-        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bba0a3d9bd2a17c99947ee765758c1dd64a42ef9\classes.dex" />
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_ac6c17e7905f298ae80d7d38ee311d73eb5bb8ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\371fd7ba6566232688c91f08ac908a7c588f15b0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_72ceb55dcc60ea3de001d679a0e813fd77185610.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\a4c7c5f17a7a1b4fed4b2fad448b94527149e0b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_3b12f84b9ed43f98a88500babbaed1f6686c1b7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\4e975d3c3867de376db7aefe057dfd4306b850b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_5c007449c33c9f5073fc9f64e1ad90a5ff1cc03f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\dfb6688ac577a77b1d6174e1f206a9907b130d3b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_9d6b988a4a6146d114834094806a1b8884e0031b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\40ab0d1546f2de474005fea87826d5dfee84c473\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_2db50415fcba4409eaceefdbdad8c1d8eea2efd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\bcf8cb0ae255a91d1db59b274e8fcdc4612d12f5\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_4649e873d46a71c34a4c0235ece18c37233176dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\8da6ae194c3942722bebd1867e537d6a8cd8d65c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_ba3c6e8b9e0a975f71dc0fc3324edfb1feb6761c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\300b036fa632d3a98082b818e252bd21745eb19e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_f02241888c53cc212571d7d5a0075161fc4992f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\bb58fe89696c5d3a290771eb4a3d2eca5a272d8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_6c1b47e036023afd33155e21d2b5d5540d8518ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\9789f90d2d4f8e5118fa2ee310d5d66dfa738ba7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_5b37f13a3b329ae2ddc25d74c9822aaf578d191a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\d901e5aba548045cd959435824b2a94692c3f774\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_5853c8fa63762e088cbf7f02cb1fcf2d0de4e2f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\0a3f88a08b1b9dfbec9c95d9fae6684d4fe5ef1c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_58a960532f0ef64c8d155dd8613ef9e4b65b98f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\6d02f4b929c90155ccfb0fa962dc9635f11732f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_b91b1a2e1419d848b09355c2cab0407d89cc5468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\73c69d16fcc72b18c3295ccf135e5a1b1369296c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_cdccf4b7dfba559f7173679d452887f2997b79ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\27f64b29ff026276ebf1af4d3c5ac279ed606879\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_22cb6bebbb7b3c248660534db57e0d7cfaf08b8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\6a24ed00ab9bda41cb79306ebb1216e9ffd94fc7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_8837cfcbe7348eea751d018d032fb6c57e8bc0d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\71bb4925490e410f70ea23856c91b7c106042882\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_0dc2ce7ec3099cb03a3f54f99140d540bcd31e23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\7a0baf1c02ac630c4fdab2936799c1dc8b7897aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_f06d4acad308eaffb592a385d8b14e81af545d00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\3f00f6381888be149e98253631cef3507de93998\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_76d5138856be80a8630623d31b2426812dd8fac3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\c39f89d35d82aaa2d748a2695c4947dcbd31fb93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_cbe2dd1403bac6d35fbcc8f6b8932f3023a03600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\07103b1e6797e0a2ecf1aeb5b606ee2de1d765dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_d3e9845b3b04de1d3080db54ae38cdc825086152.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\802d03cd26f57eef4cd427c5a40a8fed40ed9ed7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_97f54fcdeaf0a4cbcff560286b66f5a5bb560245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\d97fc42e4c2faed33262f062337bd6fa09743acc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_ac63eedb63aac4ec32f6287351de6dbf3c6f9914.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\bcf8cb0ae255a91d1db59b274e8fcdc4612d12f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_f6165dfca5e9be101670a0f8f652917862376042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\69b87d2f0eb4f65f9409be4295b9e853a9db0638\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_ec8eb07b3908528ea671d6900856331fe1e010af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\0031b5dd7dfd9c8ef500640939f1e92343408e6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_5e260b0b0f89ecef0a05e078c195b2a52cadc4fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\adc3b649e74b8d0ebbf87b783f48c527a573df02\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_c25162b2bf4394718bbd5243b4a681de0e64441a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\820124b67895a5b5e10840a55d9acfd1be4d905e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_5287e362b2b35fbdd431c0e9d0d8e2033de091f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\7e1dfba13e47b4197cb8580bc351a5c646bdf07c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_ef2053d5ce7492e6e31ce49f53dbd4780c5bbd74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\cdeabe9f0b9de494c92684176e2b6d22879a8705\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_708442e04e93fd12067da426552495c836bf2252.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\04180d27b15f49c4f008b89c16a5b3774f01e54a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_2f3ddb886e5ba581fe0072bf4586d3f83f4f9c9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\b1bd92fc18f141d1e4d54783f128cc6bb1b3eb13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_479252d875f1540d5e245789c6776b979bb864fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\b8daf37099dee330be257f19fb3fa8f30ad6889a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_10c46ba33f4365ea361732df0f1c4131b05698e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\7bc726cb83ad690951a00e8d26e58e281966785f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_666fc1cc243d58fd7f45dca8a50f5738616a5db8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\4b31b3870f3c0921bb7417c541cbbee7ba6a8140\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_4f8f9bf8c98a57c6501d7a66dab53e51bd40c8a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\2d560a7d448e3a544ddb5b03c6fc8015a11d73bd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_522f2660ccb56596f27ec81fa7482f019cc5aab9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\b113442ddf920dd025aeef33b364067c6e228f8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_de3116c5c80a35c5fe740751f3f12d39673545e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\d4779545a7b4a12c6d6611533e82e89b8c9ca8d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_02a565af2f9c178a19202813e98d3611df8dc2ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\dc2dd7942710048366e64188e9f12278de2e8d47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_df7072cedba7147fde35e98348e61c11c96c8219.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\a9a78e017502995cc59c5765f7c381ba2bc7bdec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_dd4257d6bdf7bb59bf17e9c2ae1fdb499523c5a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\66557479acb6abe403e2ddc11480398f06c09fd0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_0ea93a25b99742ae669500dcd7e3278b54508aa3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\f9afe08d753ca9a689a5ee1703c2a830d40cf12b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_9c7a59de6f1ee1077972421743ab20a7c7c42768.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\33b965909284a235084a6cff9a708de2b890310e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_783e4b68402973e76dc903c25d3a6150245db29e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\688631c7d19440335e0a19a127eef326c0fba4b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_205ab93105bce79cfe5c2575e42a7a85d21dd302.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\907146498fe8dd13394cdaf6b24a904a4a4f836e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_f74561919821606ff1b31c00f7cd2f96e5cdaff4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\ce0ad29fbf1a416d89a74beec306a0a54609206b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_0e60767f62149f016784bf9ceb731eb5ea0ce100.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\1534389d3f7d84c9b050e20ddefe0e720b517d7e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_8657a4af36f8342ef8fd098f943c6a6e20a847b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\93f91896fa5c254f6a3facea140a4f2255cb632e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_8abf0da513d7cb683de550c156e2ee5a8d37eb65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ezaz\.android\build-cache\6fe948e85c1425110ea491aff4ef8eb0c05ec8ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="C:\Users\ezaz\Documents\GitHub\FuelSaver\app\build\intermediates\pre-dexed\debug\classes_984bed45cb15f31da9e85b45c92a5af3b1103645.jar" />
     </item>
 
 </items>
