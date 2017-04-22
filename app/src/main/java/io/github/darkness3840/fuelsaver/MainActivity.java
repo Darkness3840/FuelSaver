@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //TypefaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/Sansation-Regular.ttf");
 
         EnergyConverter.initialize();
 
@@ -79,6 +82,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         TextView transport = (TextView) findViewById(R.id.Transport);
         transport.setText("Mode of transport: " + ModeOfTransport.getType(ModeOfTransport.getMode()));
 
+        ProgressBar Progress = (ProgressBar) findViewById(R.id.progress_bar);
+        Progress.setProgress((int) GasStats.getGallons());
     }
     public void artificialTravel (View view) {
         LocationTracker.artificialAdd(50000 + Math.random() * 50000);
@@ -95,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
     private void redetermineTransport () {
         final Handler h = new Handler();
-        final int delay = 10000; //milliseconds
+        final int delay = 3000; //milliseconds
         final MainActivity main = this;
 
         h.postDelayed(new Runnable(){

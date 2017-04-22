@@ -20,7 +20,7 @@ public class ModeOfTransport extends IntentService{
     public static final String ACTION = "com.hrupin.activityrecognitionwithgoogle.ACTIVITY_RECOGNITION_DATA";
     private String TAG = this.getClass().getSimpleName();
 
-    private static int mode = 0;
+    private static int mode = DetectedActivity.STILL;
 
     public ModeOfTransport() {
         super("My Activity Recognition Service");
@@ -47,7 +47,7 @@ public class ModeOfTransport extends IntentService{
         mode = -1;
         for(int i = probableActivities.size()-1; i >=0; i--) {
             DetectedActivity activity = probableActivities.get(i);
-            if (activity.getConfidence() > maxConfinence && activity.getConfidence() > 0 && activity.getType() != DetectedActivity.TILTING && activity.getType() != DetectedActivity.ON_FOOT) {
+            if (activity.getConfidence() > maxConfinence && activity.getConfidence() > 20 && activity.getType() != DetectedActivity.TILTING && activity.getType() != DetectedActivity.ON_FOOT && activity.getType() != DetectedActivity.UNKNOWN) {
                 mode = activity.getType();
                 maxConfinence = activity.getConfidence();
             }

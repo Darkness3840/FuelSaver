@@ -25,7 +25,7 @@ public class LocationTracker implements LocationListener {
         if (loc != null)
         {
             if (prevLoc != null) {
-                distanceTravelled += prevLoc.distanceTo(loc);
+                if (ModeOfTransport.getMode() != DetectedActivity.STILL && ModeOfTransport.getMode() != DetectedActivity.UNKNOWN) distanceTravelled += prevLoc.distanceTo(loc);
                 if (ModeOfTransport.getMode() == DetectedActivity.WALKING || ModeOfTransport.getMode() == DetectedActivity.ON_BICYCLE || ModeOfTransport.getMode() == DetectedActivity.RUNNING) {
                     greenDist += prevLoc.distanceTo(loc);
                 }
