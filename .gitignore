@@ -16,10 +16,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-*.idea
+*.idea*
 *.bin
 *.lock
-.idea.vcs.xml
+*.idea/vcs.xml
+*.gradle
 
 # =========================
 # Operating System Files
