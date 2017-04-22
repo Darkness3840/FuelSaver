@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FuelSaver</string>
+    <string name="keep_going">Keep going!</string>
+    <string-array name="modes_of_transportation">
+        <item>None</item>
+        <item>Gasoline Car</item>
+        <item>Walk</item>
+        <item>Bike</item>
+    </string-array>
 </resources>
