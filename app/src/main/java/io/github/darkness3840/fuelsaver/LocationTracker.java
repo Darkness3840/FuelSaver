@@ -11,6 +11,9 @@ public class LocationTracker implements LocationListener {
 
     private static double distanceTravelled = 0; // in meters
     private static double greenDist = 0;
+    private static double walkDist = 0;
+    private static double runDist = 0;
+    private static double bikeDist = 0;
     private static int updates = 0;
     private static Location prevLoc;
     private static MainActivity main;
@@ -60,9 +63,16 @@ public class LocationTracker implements LocationListener {
     public static double getGreenDistance () {
         return greenDist;
     }
-    public static double getLatitude () {
-        return prevLoc.getLatitude();
+    public static double getBikeDistance () {
+        return bikeDist;
     }
+    public static double getWalkDistance () {
+        return walkDist;
+    }
+    public static double getRunDistance () {
+        return runDist;
+    }
+    public static double getLatitude () { return prevLoc.getLatitude(); }
     public static double getLongitude () {
         return prevLoc.getLongitude();
     }
@@ -72,11 +82,13 @@ public class LocationTracker implements LocationListener {
     public static void artificialAdd (double dist) {
         distanceTravelled += dist;
         greenDist += dist;
+        runDist += dist;
+        walkDist += dist;
+        bikeDist += dist;
         main.update();
     }
     public static void reset () {
-        distanceTravelled = 0;
-        greenDist = 0;
+        distanceTravelled = greenDist = runDist = bikeDist = walkDist = 0;
         updates = 0;
         main.update();
     }

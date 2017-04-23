@@ -7,8 +7,9 @@ import static java.lang.Math.*;
 
 public class EnergyConverter {
     private static HashMap<Double, String> table = new HashMap<>();
-    private static final double MIN_GALLONS = 10;
-    private static final double MAX_ERROR = 0.1;
+    private static final double MIN_GALLONS = 0.001;
+    private static double MAX_ERROR = 0.1;
+    private static double key = 0;
 
     public static void initialize () {
         Scanner file = new Scanner("3.8e11 That's equal to the amount of energy the sun produces in %n femtosecond(s).\n" +
@@ -19,9 +20,9 @@ public class EnergyConverter {
                 "4.1e7 That is the average amount of energy expended by a human heart in %n year(s).\n" +
                 "6e11 That is the energy released by the average hurricane in %n millisecond(s).\n" +
                 "5.5e8 That is the kinetic energy of a %n-kilogram meteor hitting Earth.\n" +
-                "1.10e9 That is the energy in %n lightning bolt(s).\n" +
+                "1.1e9 That is the energy in %n lightning bolt(s).\n" +
                 "4.2e6 That is the energy released from %n kilogram(s) of TNT.\n" +
-                "313  That is the amount of energy used by %n [person](people) jumping as high as they can.\n" +
+                "3.1e2  That is the amount of energy used by %n [person](people) jumping as high as they can.\n" +
                 "9e9 That is the mass-energy in %n microgram(s) of antimatter.\n" +
                 "2.2e11 That is amount of energy used in %n milligram(s) of the largest nuclear weapon ever tested.\n" +
                 "2.4e11 That is food energy consumed by %n [person](people) in their lifetime(s).\n" +
@@ -46,13 +47,21 @@ public class EnergyConverter {
             }
         }
 
-        if (goodKeys.size() == 0) return "That's a lot of energy saved!";
-        double key = goodKeys.get((int)(random() * goodKeys.size()));
+        if (goodKeys.size() == 0) {
+            MAX_ERROR += 0.1;
+            String res = convert(gallons);
+            MAX_ERROR = 0.1;
+            return res;
+        }
+        key = goodKeys.get((int)(random() * goodKeys.size()));
 
         if (round(joules/key) == 1) {
             return table.get(key).replaceAll("\\(.*\\)", "").replaceAll("\\[|\\]", "").replaceAll("%n", "one").trim();
         } else {
             return table.get(key).replaceAll("\\[.*\\]", "").replaceAll("\\(|\\)", "").replaceAll("%n", String.format(Locale.US, "%,d", round(joules/key))).trim();
         }
+    }
+    public static double getKey () {
+        return key;
     }
 }
